@@ -16,7 +16,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import "@/_config.scss";
+@import "@/variables.scss";
 
 .title {
   h1 {

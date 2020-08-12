@@ -1,22 +1,25 @@
 <template>
   <div id="app">
     <Title />
+    <UploadForm />
   </div>
 </template>
 
 <script>
 import Title from "./components/Title.vue";
+import UploadForm from "./components/UploadForm";
 
 export default {
   name: "App",
   components: {
     Title,
+    UploadForm,
   },
 };
 </script>
 
 <style lang="scss">
-@import "_config.scss";
+@import "variables.scss";
 
 body {
   font-family: "Noto Serif";
